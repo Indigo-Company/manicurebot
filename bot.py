@@ -1,3 +1,4 @@
-TOKEN = "8547377508:AAFNTQbe8zXzVJhD6_WS8Yfo2wI1H0Z19V4"
-ADMIN_ID = 7854011227
+import os
 
+TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
